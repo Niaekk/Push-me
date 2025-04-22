@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <div className="button_container">
         <Button bsStyle="primary" onClick={this.handleClick}>
-          Натисни мене!
+          Push me
         </Button>
         <p>{this.state.id}</p>
         <FontAwesomeIcon icon={faStar} />
